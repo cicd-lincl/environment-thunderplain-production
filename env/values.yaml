@@ -17,7 +17,7 @@ expose:
     domain: lin.cl
     exposer: Ingress
     http: "true"
-    tlsacme: "false"
+    tlsacme: "true"
   Annotations:
     helm.sh/hook: post-install,post-upgrade
     helm.sh/hook-delete-policy: hook-succeeded
